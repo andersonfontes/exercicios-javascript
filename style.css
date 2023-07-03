@@ -25,7 +25,7 @@ body{
     background-color: white;
     border-radius: 9px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);   
-    min-height: 400px; 
+    min-height: 500px; 
 }
 
 label{
@@ -35,7 +35,7 @@ label{
     font-size: 1.5rem;  
 }
 
-input{
+input, select, option{
     background-color: white;
     border-radius: 5px;
     margin-bottom: 5px;
@@ -48,11 +48,13 @@ input{
     background-color: blue;
     color: white;
     font-size: 1rem;
-    cursor:pointer;
+    cursor: pointer;
     border-radius: 5px;
     padding: 5px 15px;
     border: none;
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    margin-top:5px;
+    margin-bottom: 5px;
 }
 
 .btn:hover{
@@ -88,9 +90,14 @@ h1, ul, li{
 .lista{  
     max-width:40px;
     margin:auto;    
-    min-height: 50px;  
-    
-    
+    min-height: 50px;    
 }
 
 
+#message{
+    background-color: white;
+    color: green;
+    font-size: 1em;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
