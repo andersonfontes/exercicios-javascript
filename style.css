@@ -77,12 +77,20 @@ a:hover{
     background-color: lightgoldenrodyellow;
 }
 
-h1, ul, li{
+ol, ul, li{
         background-color: white;
         font-size: 1.3em;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         
         margin-bottom: 10px;
+}
+
+h1{
+    background-color: white;
+    font-size: 1.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    margin-bottom: 10px;
 }
 
 .lista{  
