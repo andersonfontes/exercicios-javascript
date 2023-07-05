@@ -23,6 +23,8 @@
 
 
     </ul>
+    <input type="button" class="btn" id="btn-remover" value="REMOVER ÚLTIMO" 
+    onclick="remover()">
     <br>
     <br>
     <br>
@@ -51,12 +53,16 @@
 
         elementoPaiUl.appendChild(elementoFilhoLi);
 
-        console.log( item);
-        console.log( texto);
-        console.log( elementoPai);
-        console.log( elementoFilho);
-
+        console.log(item);
+        console.log(item.value);
+        console.log(texto);           
         
     }
+    function remover() 
+    {        
+        let elementopaiul = document.getElementById('lista');
+        let itemARemover = elementopaiul.lastElementChild;
+        elementopaiul.removeChild(itemARemover);
+    }    
 
 </script>
