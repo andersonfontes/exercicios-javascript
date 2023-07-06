@@ -32,7 +32,7 @@
         <option value="mm">Milímetro(s)</option>
     </select>
 
-    <button id="btn-converter" class="btn">CONVERTER</button>
+    <button id="btn-converter" class="btn"> CONVERTER </button>
     <br>
     <br>
     <label for="output">Resultado:</label>
@@ -51,5 +51,73 @@
 </html>
 <script>
     
+
+    //selecionando os elementos através de seus ID
+    const inputElement = document.querySelector('#input');
+    const fromElement = document.querySelector('#from');
+    const toElement = document.querySelector('#to');
+    const outputElement = document.querySelector('#output');
+    const messageElement = document.querySelector('#message');
+    const convertButton = document.querySelector('#btn-converter');
+
+    convertButton.addEventListener("click", Convert);
+
+    function Convert() {
+        //selecionando apenas o valor dos campos DE e PARA
+        const fromValue = fromElement.value;
+        const toValue = toElement.value;
+
+        //se a unidade de entrada for igual a unidade de saída
+        if( fromValue == toValue ) {
+            outputElement.value = inputElement.value;
+            messageElement.textContent = '';
+            return; //retorna (finaliza função)
+        }
+
+        //passo 1: converter o valor de entrada para metros e gravar na variável METERS
+        let meters;
+
+        switch(fromValue){
+            case 'm':
+                meters = inputElement.value;    
+                break;
+            case 'km':
+                meters = inputElement.value * 1000;
+                break;
+            case 'cm':       
+                meters = inputElement.value / 100;
+                break;
+            case 'mm':
+                meters = inputElement.value / 1000;
+                break;    
+            }
+
+        //passo 2: Converter o valor em metros para o valor de saída e salvar na variável RESULT
+        let result;
+
+        switch(toValue){
+            case 'm':
+                result = meters;  
+                break;
+            case 'km':
+                result = meters / 1000;
+                break;
+            case 'cm':       
+            result = meters * 100;
+                break;
+            case 'mm':
+                result = meters * 1000;
+                break;  
+        }
+        
+        //Exibir o resultado no input de saída
+        outputElement.value = result;      
+
+    }
+
+
+
+                         
+
 
 </script>
