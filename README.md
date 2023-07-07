@@ -16,7 +16,7 @@ Utilizado para explicação de document.createElement(); document.createTextNode
 Utilização de getElementById(), atributos .value e .style (diversos)
 
 # conversormedidas.html
-Exercício para conversão de valores entre unidades de medida
+Exercício para conversão de valores entre unidades de medida<br>
 Utilizado para explicação de .options, selectedIndex[], .textContent, .text e querySelector()
 
 # tabuada
