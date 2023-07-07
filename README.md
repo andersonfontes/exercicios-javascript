@@ -20,5 +20,5 @@ Exercício para conversão de valores entre unidades de medida
 Utilizado para explicação de .options, selectedIndex[], .textContent, .text e querySelector()
 
 # tabuada
-Atividade final de manipulação de DOM
+Atividade final de manipulação de DOM<br>
 Prática dos métodos e atributos aprendidos combinado à lógica para resolução do problema
