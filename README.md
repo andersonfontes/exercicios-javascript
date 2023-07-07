@@ -2,6 +2,8 @@
 
 ### SENAI Conde José Vicente de Azevedo - SP
 
+### [Clique aqui para visualizar a página publicada](https://andersonfontes.github.io/exercicios-javascript)
+
 # index.html
 Exercicio para definição se numero é par ou ímpar e retorno do dobro do numero.<br>
 Utilização de getElementById(), atributo .value, parseInt() e if
