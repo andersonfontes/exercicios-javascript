@@ -13,7 +13,7 @@ Exercicio para cálculo de média de aluno e aprovação<br>
 Utilização de getElementById(), atributos .value e .style, parseFloat() e if
 
 # listacompras.html
-Exercicio para inserção de itens na lista de compras<br>
+Exercicio para inserção e remoção de itens na lista de compras<br>
 Utilizado para explicação de document.createElement(); document.createTextNode() , .appendChild(), removeChild(), .firstElementChild, lastElementChild e .childNodes[] <br>
 Utilização de getElementById(), atributos .value e .style (diversos)
 
