@@ -12,12 +12,12 @@ Utilização de getElementById(), atributos .value e .style, parseFloat() e if
 
 # listacompras.html
 Exercicio para inserção de itens na lista de compras<br>
-Utilizado para explicação de document.createElement(); document.createTextNode() e .appendChild()<br>
+Utilizado para explicação de document.createElement(); document.createTextNode() , .appendChild(), removeChild(), .firstElementChild, lastElementChild e .childNodes[] <br>
 Utilização de getElementById(), atributos .value e .style (diversos), 
 
 # conversormedidas.html
 Exercício para conversão de valores entre unidades de medida
-Utilizado para explicação de .options, selectedIndex, .textContent, .text e querySelector()
+Utilizado para explicação de .options, selectedIndex[], .textContent, .text e querySelector()
 
 #tabuada
 Atividade final de manipulação de DOM
