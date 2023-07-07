@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicio</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Tabuada</h1>
+        <label for="input">Digite o número: </label>
+        <input type="number" id="input">
+        <input type="button" value="Gerar Tabuada" onclick="tabuada()" class="btn"></p>
+
+        <br>
+            <ul  id="output" class="list-style-none" >                
+            </ul>
+        
+        <br>
+        <br>
+        <a href="index.html">Clique aqui para exercício do numero par</a>
+        <a href="listacompras.html">Clique aqui para lista de compras</a>
+        <a href="media.html">Clique aqui para exercício da média</a>
+        <a href="conversormedidas.html">Clique aqui para conversor de medidas</a>
+        
+
+    </div>
+</body>
+
+</html>
+<script>
+    function tabuada() {
+        let num = document.getElementById('input')
+        let tab = document.getElementById('output')
+        tab.innerHTML = '';
+
+        let n = num.value
+            let c = 1
+            
+            while (c <= 10) {
+                let linha = document.createTextNode(`${n} x ${c} = ${n * c}`);
+                let item = document.createElement('li');
+                item.appendChild(linha)    ;            
+                tab.appendChild(item);
+                c++;
+            }
+
+            tab.style.width =  '25%';
+            tab.style.margin = 'auto';            
+            tab.style.marginBottom = '10px';
+
+            console.log(input.value, "   ", output);
+    }
+</script>

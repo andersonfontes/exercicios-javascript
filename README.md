@@ -1,4 +1,5 @@
-## Exercicios de JavaScript para o projeto Ford Enter <br>
+## Exercicios de JavaScript para o projeto Ford Enter 
+
 ### SENAI Conde José Vicente de Azevedo - SP
 
 # index.html
@@ -11,6 +12,13 @@ Utilização de getElementById(), atributos .value e .style, parseFloat() e if
 
 # listacompras.html
 Exercicio para inserção de itens na lista de compras<br>
-Utilizado para explicação de document.createElement(); document.createTextNode() e .appendChild()<br>
-Utilização de getElementById(), atributos .value e .style (diversos), 
+Utilizado para explicação de document.createElement(); document.createTextNode() , .appendChild(), removeChild(), .firstElementChild, lastElementChild e .childNodes[] <br>
+Utilização de getElementById(), atributos .value e .style (diversos)
 
+# conversormedidas.html
+Exercício para conversão de valores entre unidades de medida<br>
+Utilizado para explicação de .options, selectedIndex[], .textContent, .text e querySelector()
+
+# tabuada
+Atividade final de manipulação de DOM<br>
+Prática dos métodos e atributos aprendidos combinado à lógica para resolução do problema
